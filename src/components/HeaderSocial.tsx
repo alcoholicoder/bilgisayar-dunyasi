@@ -1,9 +1,10 @@
 import React from 'react'
+import { IconType } from 'react-icons';
 import { MdLocalPhone } from "react-icons/md";
 
 
 type HeaderSocialProps = {
-  icon: React.ComponentType<any>;
+  icon: IconType;
   title: string;
   text: string;
 };
