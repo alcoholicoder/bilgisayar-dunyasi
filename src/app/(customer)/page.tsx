@@ -42,7 +42,7 @@ export default function HomePage() {
 
 				<div className="md:w-1/2">
 					<h2 className="text-red-600 font-bold text-sm mb-2">BİZ KİMİZ?</h2>
-					<h1 className="text-4xl font-extrabold mb-4">10 YILLIK DENEYİM, GÜVENİLİR HİZMET</h1>
+					<h1 className="text-4xl font-extrabold mb-4">10 YILLIK DENEYİM, GÜVENİLİR HİZMET XXXX</h1>
 					<p className="mb-4 text-gray-700">
 						Bilgisayar Atölyesi olarak, bilgisayar teknik servisi, bakım, onarım ve yedek parça hizmetlerinde uzmanız...
 					</p>
