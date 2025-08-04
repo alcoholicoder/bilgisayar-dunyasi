@@ -5,7 +5,7 @@ const Footer = () => {
 
     
     <div
-      className="relative w-full h-[300px] bg-cover bg-center flex flex-col justify-center px-8"
+      className="relative w-full h-[300px] bg-cover bg-center flex flex-col justify-center px-8 mt-15"
       style={{
         backgroundImage:
           `url("https://bilgisayaratolyesi.com/wp-content/uploads/2023/01/motherboard-background-scaled.jpg")`,
