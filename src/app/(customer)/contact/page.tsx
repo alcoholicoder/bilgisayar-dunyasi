@@ -57,7 +57,7 @@ const Contact = () => {
 
 							<div>
 								<label className="block text-sm font-medium text-gray-700">Mesajınız</label>
-								<textarea name="message" rows="4" required className="mt-1 w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+								<textarea name="message" rows={4} required className="mt-1 w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-cyan-500">
 									{/* Text area içi */}
 								</textarea>
 							</div>
