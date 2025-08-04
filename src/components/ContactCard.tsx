@@ -5,26 +5,26 @@ import React from 'react'
 const ContactCard = () => {
 
     const cards = [
-    {
-        icon: <Facebook className="w-10 h-10 text-[#1877F2]" />,
-        title: "Facebook"
-    },
-    {
-        icon: <Twitter className="w-10 h-10 text-[#1DA1F2]" />,
-        title: "Twitter"
-    },
-    {
-        icon: <Youtube className="w-10 h-10 text-[#FF0000]" />,
-        title: "YouTube"
-    },
-    {
-        icon: <Instagram className="w-10 h-10 text-[#E1306C]" />,
-        title: "Instagram"
-    },
-    {
-        icon: <Linkedin className="w-10 h-10 text-[#0077B5]" />,
-        title: "LinkedIn"
-    }
+        {
+            icon: <Facebook className="w-10 h-10 text-[#1877F2]" />,
+            title: "Facebook"
+        },
+        {
+            icon: <Twitter className="w-10 h-10 text-[#1DA1F2]" />,
+            title: "Twitter"
+        },
+        {
+            icon: <Youtube className="w-10 h-10 text-[#FF0000]" />,
+            title: "YouTube"
+        },
+        {
+            icon: <Instagram className="w-10 h-10 text-[#E1306C]" />,
+            title: "Instagram"
+        },
+        {
+            icon: <Linkedin className="w-10 h-10 text-[#0077B5]" />,
+            title: "LinkedIn"
+        }
     ];
 
 return (
