@@ -24,25 +24,17 @@ const HomeCard = () => {
       title: "Başlık 2",
       description: "Burada küçük açıklama yazısı yer alır.",
     },
-
-    {
+      {
       icon: "icon",
       title: "Başlık 2",
       description: "Burada küçük açıklama yazısı yer alır.",
     },
-    
-    {
-      icon: "icon",
-      title: "Başlık 2",
-      description: "Burada küçük açıklama yazısı yer alır.",
-    },
-    
-    // 6 tane olacak şekilde çoğalt
   ];
 
   return (
-    <div className="max-w-7xl mx-auto py-10">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+    <div className="max-w-10xl mx-auto py-10">
+      
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 place-items-center">
         {cards.map((card, idx) => (
           <Card key={idx} className="flex flex-col items-center p-6 text-center">
             <div>{card.icon}</div>
