@@ -67,11 +67,13 @@ const Navbar = () => {
                     </NavigationMenuLink>
                 </NavigationMenuItem>
 
+
                 <NavigationMenuItem>
                     <NavigationMenuLink asChild>
-                        <Link href="/gallery" className="px-4 py-2">Galeri</Link>
+                        <Link href="/products" className="px-4 py-2">Ürünlerimiz</Link>
                     </NavigationMenuLink>
                 </NavigationMenuItem>
+
             </NavigationMenuList>
         </NavigationMenu>
     );
